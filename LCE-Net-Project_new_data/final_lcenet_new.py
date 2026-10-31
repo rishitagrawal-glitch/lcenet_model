@@ -13,9 +13,7 @@ Improvements over baseline_lcenet.py:
   9. Per-class accuracy printed  (easy to see weak classes)
 
 Usage:
-    python final_lcenet.py --data ./dataset_extracted --epochs 60 --oversample
-"""
-
+ python final_lcenet_new.py --data ./dataset_extracted --epochs 60 --oversample --out best_model_final_new.pth"""
 import argparse, os, re
 import numpy as np
 import torch, torch.nn as nn

@@ -17,7 +17,7 @@ Usage:
   python final_lcenet_new.py --data ./dataset_extracted --epochs 60 --oversample
 
   # 2. Prune it down to ~90,000 parameters using Strategy A
-  python strategy_a.py   --data ./dataset_extracted --ckpt best_model_final.pth --budget 90000 --split group
+  python strategy_a.py   --data ./dataset_extracted --ckpt best_model_final_new.pth --budget 90000 --split group
 """
 import argparse, copy, os
 import numpy as np
